@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Viewable on mobile devices?-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width">
+    <!--Reference Link to CSS-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+    <title>XYLOPHONE.</title>
+  </head>
+<body>
+  <!-- Goal is to create an interactive xylophone page by mouse hovering over bars-->
+  <!-- Create 'div class' element to contain the bars-->
+  <!-- Create 'div class' elements for each bar-->
+  
+  <h1>Play me.</h1>
+
+<div class = "keys">
+  <!--attempt to make the digital xylophone with functional keyboard-->
+  <div id = "box" onkeypress="myFunction()">
+    <!--'onkeypress' and 'key__$' allows the keys to be active on page..?-->
+    <!--'onmouseover' it allows audio to the bars to be enabled. 'onmouseout' disables audio. 'currentTime = x' functions in this script to stop audio completely after the mouse has been removed from over the bar-->
+    
+    <div class = "bar key__65 data-key="65" onmouseover="document.getElementById('audio__65').play()" onmouseout="document.getElementById('audio__65').currentTime = 4" ></div>
+    <div class = "bar key__83" data-key="83" onmouseover="document.getElementById('audio__83').play()" onmouseout="document.getElementById('audio__83').currentTime = 4"></div>
+    <div class = "bar key__68" data-key="68" onmouseover="document.getElementById('audio__68').play()" onmouseout="document.getElementById('audio__68').currentTime = 4"></div>
+    <div class = "bar key__70" data-key="70" onmouseover="document.getElementById('audio__70').play()" onmouseout="document.getElementById('audio__70').currentTime = 4"></div>
+    <div class = "bar key__74" data-key="74" onmouseover="document.getElementById('audio__74').play()" onmouseout="document.getElementById('audio__74').currentTime = 4"></div>
+    <div class = "bar key__75" data-key="75" onmouseover="document.getElementById('audio__75').play()" onmouseout="document.getElementById('audio__75').currentTime = 4"></div>
+    <div class = "bar key__76" data-key="76" onmouseover="document.getElementById('audio__76').play()" onmouseout="document.getElementById('audio__76').currentTime = 4"></div>
+    <div class = "bar key__186" data-key="186" onmouseover="document.getElementById('audio__186').play()" onmouseout="document.getElementById('audio__186').currentTime = 4"></div>
+    
+  </div>
+</div>
+
+
+  <div id= "audio">
+    <!--remove '/' from audio files to activate sound-->
+    <!--data-key functions to assign 'Keycodes' to each audio file and bar.-->
+    
+  <audio data-key="65" id="audio__65" src="232002__danmitch3ll__xylophone-c.wav"></audio>
+  <audio data-key="83" id="audio__83" src="232008__danmitch3ll__xylophone-d1.wav"></audio>
+  <audio data-key="68" id="audio__68" src="232007__danmitch3ll__xylophone-e1.wav"></audio>
+  <audio data-key="70" id="audio__70" src="232006__danmitch3ll__xylophone-f.wav"></audio>
+  <audio data-key="74" id="audio__74" src="232005__danmitch3ll__xylophone-g.wav"></audio>
+  <audio data-key="75" id="audio__75" src="232004__danmitch3ll__xylophone-a.wav"></audio>
+  <audio data-key="76" id="audio__76" src="232003__danmitch3ll__xylophone-b.wav"></audio>
+  <audio data-key="186" id="audio__186" src="232001__danmitch3ll__xylophone-c2.wav"></audio>
+  
+  </div>
+  
+<script type="text/javascript" src="javascript.js"></script>
+<!--Connects with exetrnal JS..?-->
+
+</body>
+</html>
+
+<!-- Inspired by Jelena "#codevember 2018 - 05 Music" on CodePen https://codepen.io/mali_mis/pen/WYbzrr-->

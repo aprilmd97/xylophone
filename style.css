@@ -1,0 +1,121 @@
+/*Create a :root for html elements...?*/
+/*CSS variables?*/
+
+  .box{
+    position: relative;
+    display: block;
+    width: 1500px;
+    height: 590px;
+    background: transparent;
+    columns:187.5px,187.5px,187.5px,187.5px,187.5px,187.5px,187.5px,187.5px,;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+  .key__65{
+    
+    position: absolute;
+    left:auto;
+    display:block;
+    background: #ba0909;
+    width: 180px;
+    height: 590px;
+    border-radius: 40px;
+  }
+
+  .key__83{
+    position:absolute;
+    left:187.5px;
+    display:block;
+    background:#c15d05;
+    width: 187.5px;
+    height:590px;
+    border-radius: 40px;
+  }
+  
+  .key__68{
+    position:absolute;
+    left:375px;
+    display:block;
+    background:#d1bd0e;
+    width: 187.5px;
+    height:590px;
+    border-radius: 40px;
+  }
+  
+
+ .key__70{
+    position:absolute;
+    left:562.5px;
+    display:block;
+    background:#89d10e;
+    width: 187.5px;
+    height:590px;
+    border-radius: 40px;
+  }
+  
+.key__74{
+    position:absolute;
+    left:750px;
+    display:block;
+    background:#0bc480;
+    width: 187.5px;
+    height:590px;
+    border-radius: 40px;
+  }
+
+.key__75{
+    position:absolute;
+    left:937.5px;
+    display:block;
+    background:#0b7dc4;
+    width: 187.5px;
+    height:590px;
+    border-radius: 40px;
+  }
+  
+.key__76{
+    position:absolute;
+    left:1125px;
+    display:block;
+    background:#6e0bc4;
+    width: 187.5px;
+    height:590px;
+    border-radius: 40px;
+  }
+
+.key__186{
+    position:absolute;
+    left:1312.5px;
+    display:block;
+    background:#c40ba2;
+    width: 187.5px;
+    height:590px;
+    border-radius: 40px;
+  }
+
+.bar:hover
+{
+  opacity: 0.65;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.bar:active
+{opacity: 0.65;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+
+
+
+
+
+
